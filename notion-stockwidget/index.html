@@ -4,18 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Notion Stock Widget</title>
-    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+      }
+      body.light {
+        color: rgba(0, 0, 0, 0.9);
+        background-color: #ffffff !important;
+      }
+      body.dark {
+        color: rgba(255, 255, 255, 0.9);
+        background-color: rgb(47, 52, 55) !important;
+      }
+    </style>
   </head>
-  <body class="light">
-    <!-- Light/Dark Btn -->
-    <div class="settings">
-      <div class="modes">
-        <button class="light">Light</button>
-        <button class="dark">Dark</button>
-      </div>
-    </div>
+  <body class="dark">
     <!-- TradingView Widget BEGIN -->
-    <div class="tradingview-widget-container" id="light">
+    <div class="tradingview-widget-container">
       <div class="tradingview-widget-container__widget"></div>
       <div class="tradingview-widget-copyright">
         <a href="https://www.tradingview.com" rel="noopener" target="_blank"
@@ -146,15 +157,12 @@
             }
           ],
           "showSymbolLogo": true,
-          "colorTheme": "light",
+          "colorTheme": "dark",
           "isTransparent": false,
           "locale": "en"
         }
       </script>
     </div>
     <!-- TradingView Widget END -->
-    <!-- Custom JS for widget styling BEGIN -->
-    <script src="app.js"></script>
-    <!-- Custom JS END -->
   </body>
 </html>
