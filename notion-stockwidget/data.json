@@ -1,0 +1,118 @@
+{
+    "width": "100%",
+    "height": "100%",
+    "symbolsGroups": [
+      {
+        "name": "Holdings",
+        "originalName": "Indices",
+        "symbols": [
+          {
+            "name": "LSE:IWDA"
+          },
+          {
+            "name": "LSE:CSPX"
+          },
+          {
+            "name": "LSE:EIMI"
+          },
+          {
+            "name": "NASDAQ:AAPL"
+          },
+          {
+            "name": "NASDAQ:IBKR"
+          }
+        ]
+      },
+      {
+        "name": "US Companies",
+        "symbols": [
+          {
+            "name": "NASDAQ:AMZN"
+          },
+          {
+            "name": "NYSE:BABA"
+          },
+          {
+            "name": "NASDAQ:FB"
+          },
+          {
+            "name": "NASDAQ:GOOG"
+          },
+          {
+            "name": "NASDAQ:MSFT"
+          },
+          {
+            "name": "NASDAQ:NVDA"
+          },
+          {
+            "name": "NYSE:SE"
+          },
+          {
+            "name": "NASDAQ:TSLA"
+          },
+          {
+            "name": "NYSE:TWTR"
+          },
+          {
+            "name": "NYSE:WORK"
+          }
+        ]
+      },
+      {
+        "name": "ETF",
+        "symbols": [
+          {
+            "name": "LSE:ISAC"
+          },
+          {
+            "name": "LSE:VUAA"
+          },
+          {
+            "name": "LSE:VWRA"
+          },
+          {
+            "name": "AMEX:ARKK"
+          },
+          {
+            "name": "AMEX:ARKG"
+          },
+          {
+            "name": "NASDAQ:QQQ"
+          },
+          {
+            "name": "NASDAQ:QQQJ"
+          },
+          {
+            "name": "NASDAQ:QQQM"
+          }
+        ]
+      },
+      {
+        "name": "Singapore",
+        "symbols": [
+          {
+            "name": "TVC:STI"
+          },
+          {
+            "name": "SGX:C38U"
+          },
+          {
+            "name": "SGX:O39"
+          },
+          {
+            "name": "SGX:Z74"
+          },
+          {
+            "name": "SGX:G3B"
+          },
+          {
+            "name": "SGX:CFA"
+          }
+        ]
+      }
+    ],
+    "showSymbolLogo": true,
+    "colorTheme": "light",
+    "isTransparent": false,
+    "locale": "en"
+  }
